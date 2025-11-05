@@ -1,1 +1,6 @@
-/venv
+venv/
+__pycache__/
+*.npy
+*.h5
+MP_Data/
+model/
