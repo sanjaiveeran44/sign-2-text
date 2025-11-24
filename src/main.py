@@ -1,5 +1,5 @@
-from train_model import train_model
+from data_collection import collect_sign_data
 
 if __name__ == "__main__":
     actions = ['hello', 'thank you', 'yes', 'no']
-    train_model(actions)
+    collect_sign_data(actions, num_sequences=30, sequence_length=30)

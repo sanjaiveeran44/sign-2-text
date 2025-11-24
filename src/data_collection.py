@@ -5,7 +5,7 @@ import time
 import mediapipe as mp
 
 # Path where data will be stored
-DATA_PATH = os.path.join('MP_Data')
+DATA_PATH = os.path.join('sample_data')
 
 # Function to extract keypoints from MediaPipe hand landmarks
 def extract_keypoints(results):
